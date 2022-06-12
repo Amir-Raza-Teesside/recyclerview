@@ -15,7 +15,7 @@
         android:padding="6dp"
         android:layout_margin="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/CountryFlap"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
@@ -27,11 +27,11 @@
         android:layout_margin="6dp"
         android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/CountryFlap"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/CountryFlap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
