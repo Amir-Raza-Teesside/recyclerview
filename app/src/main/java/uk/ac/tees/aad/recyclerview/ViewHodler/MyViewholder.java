@@ -18,9 +18,9 @@ public class MyViewholder extends RecyclerView.ViewHolder
     public MyViewholder(@NonNull View itemView) {
         super(itemView);
 
-        imageView = itemView.findViewById(R.id.CountryFlap);
-        textView1 = itemView.findViewById(R.id.textView);
-        textView2 = itemView.findViewById(R.id.textView2);
+        imageView = itemView.findViewById(R.id.imageView);
+        textView1 = itemView.findViewById(R.id.textView4);
+        textView2 = itemView.findViewById(R.id.textView5);
 
 
     }
